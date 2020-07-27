@@ -10,7 +10,7 @@ export default class App extends Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
-    this.onTermSubmit('singer');
+    this.onTermSubmit('javascript');
   }
 
   onTermSubmit = async term => {
